@@ -1,0 +1,70 @@
+.DS_Store
+.git/
+
+# R
+.Rhistory
+.RData
+Rplots.pdf
+.Rproj.user/
+renv/library/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# Secrets / keys (never commit)
+upload_key.json
+
+# Data (downloadable / regenerable)
+data/raw/**
+data/processed/**
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Generated outputs (keep placeholders, not local runs)
+results/metadata/**
+!results/metadata/.gitkeep
+results/causal/opengwas/**
+results/causal/mr/**
+
+# Local caches (regenerable)
+data/references/ensembl/**
+!data/references/ensembl/key_hits.tsv
+
+# Runtime logs / scratch (never commit)
+logs/**
+evidence/**
+trash/**
+docs/audit_runs/**
+docs/review_bundle/**
+
+# Local-only manuscript generation helpers (do not commit)
+scripts/08_update_manuscript.R
+
+# Local agent tooling (do not commit)
+conductor/**
+openspec/**
+AGENTS.md
+
+# Local runbooks / scratch scripts
+run_plan_*.sh
+
+# Office temp files
+.~*
+~$*
+
+# Optional local exports (do not commit)
+docs/MANUSCRIPT_ONLINE.*
+
+# Debug artifacts
+plots/publication/png/*debug*
+scripts/audit/__pycache__/
+
+# Ad-hoc root scripts (keep pipeline scripts under scripts/)
+patch_*.sh
+final_*.sh
+resume_*.sh
+rebuild_*.sh
+execute_*pipeline*.sh

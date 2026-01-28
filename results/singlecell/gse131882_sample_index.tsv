@@ -1,0 +1,7 @@
+sample	group	path	size_bytes	md5
+GSM3823939_control.s1.dgecounts.rds	control	data/raw/singlecell/GSE131882/files/GSM3823939_control.s1.dgecounts.rds	363929850	e7f7d8b004f0d2d334483fcaac7c18b4
+GSM3823940_control.s2.dgecounts.rds	control	data/raw/singlecell/GSE131882/files/GSM3823940_control.s2.dgecounts.rds	185568534	9a015a5a281f39a8b6e8f312c33a5af5
+GSM3823941_control.s3.dgecounts.rds	control	data/raw/singlecell/GSE131882/files/GSM3823941_control.s3.dgecounts.rds	306686193	4882b4e1171b1093dc5463cc47781f41
+GSM3823942_diabetes.s1.dgecounts.rds	diabetes	data/raw/singlecell/GSE131882/files/GSM3823942_diabetes.s1.dgecounts.rds	288400155	fcbdc5f152c81fd760c06af8b2c4c88d
+GSM3823943_diabetes.s2.dgecounts.rds	diabetes	data/raw/singlecell/GSE131882/files/GSM3823943_diabetes.s2.dgecounts.rds	188317229	d52e945f7bb78fcdfdec5005a393cb03
+GSM3823944_diabetes.s3.dgecounts.rds	diabetes	data/raw/singlecell/GSE131882/files/GSM3823944_diabetes.s3.dgecounts.rds	166673020	e384296bccfd0f265c2e35f9fe1168d9

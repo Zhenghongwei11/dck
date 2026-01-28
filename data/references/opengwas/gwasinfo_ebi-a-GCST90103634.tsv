@@ -1,0 +1,2 @@
+id	trait	population	sample_size	year	build	pmid	author	group_name	source_url	extracted_utc
+ebi-a-GCST90103634	Estimated glomerular filtration rate (creatinine)	European	1004040	2021	HG19/GRCh37	34272381	Stanzick KJ	public	https://api.opengwas.io/api/gwasinfo	2026-01-02T00:00:00Z

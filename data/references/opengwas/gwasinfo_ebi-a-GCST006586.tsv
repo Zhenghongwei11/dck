@@ -1,0 +1,2 @@
+id	trait	population	sample_size	year	build	pmid	author	group_name	source_url	extracted_utc
+ebi-a-GCST006586	Urinary albumin excretion	European	382500	2018	HG19/GRCh37	30220432	Haas ME	public	https://api.opengwas.io/api/gwasinfo	2026-01-02T00:00:00Z

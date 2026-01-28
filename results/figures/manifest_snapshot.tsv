@@ -1,0 +1,20 @@
+id	type	name	source	accession	version_date	local_path	integrity	build	ancestry
+GCST005881	gwas	DKD in diabetes (multi-ethnic; van Zuydam 2018; harmonised)	GWAS Catalog (harmonised)	GCST005881	2018-04-27	data/raw/gwas/GCST005881.h.tsv.gz	md5=7c7659469097610001b5a581298594f1	hg37	MULTI
+DKDGENIE2022_ALLVCTRL	gwas	DKD in diabetes (All vs control; DNCRI+SUMMIT meta; b37)	KP4CD (Broad Institute)	PMID:35763030	2022-06-01	data/raw/gwas/DKDGENIE2022_ALLVCTRL.tsv.gz		hg37	EUR
+GCST90435703	gwas	T1D renal manifestations (EUR; legacy/underpowered)	GWAS Catalog	GCST90435703	2025-02-04	data/raw/gwas/GCST90435703.tsv.gz	md5=bc3eceaade3ac53a8679d0f7d90d5a3c	hg37	EUR
+GCST008058	gwas	Estimated glomerular filtration rate (eGFR; CKDGen 2019)	GWAS Catalog	GCST008058	2026-01-17	data/raw/gwas/GCST008058.dbgap.txt.gz		hg37	ALL
+GCST008064	gwas	Chronic kidney disease (CKD; CKDGen 2019)	GWAS Catalog	GCST008064	2026-01-17	data/raw/gwas/GCST008064.dbgap.txt.gz		hg37	ALL
+GSE131882	singlecell	Wilson_2019	GEO	GSE131882	2019-05-10	data/raw/singlecell/GSE131882/GSE131882_RAW.tar	md5=457e85ca9666bc8533e6f29577de2321		
+GSE195460_CONTROL1_RNA_H5	singlecell	GSE195460 Control1 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_Control1_filtered_feature_bc_matrix.h5	md5=94d85e62103d6121c5d4290fbbb3400b		
+GSE195460_CONTROL2_RNA_H5	singlecell	GSE195460 Control2 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_Control2_filtered_feature_bc_matrix.h5	md5=2f824f993a7e9606f00b357ddc9c3c7b		
+GSE195460_CONTROL3_RNA_H5	singlecell	GSE195460 Control3 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_Control3_filtered_feature_bc_matrix.h5	md5=239a2ebe1ee9563e132c51900dc64985		
+GSE195460_CONTROL4_RNA_H5	singlecell	GSE195460 Control4 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_Control4_filtered_feature_bc_matrix.h5	md5=faf00e37fa771e5d73170c38798bfbe9		
+GSE195460_CONTROL5_RNA_H5	singlecell	GSE195460 Control5 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_Control5_filtered_feature_bc_matrix.h5	md5=b78f5348c80395c44ebd946ae179daab		
+GSE195460_DN1_RNA_H5	singlecell	GSE195460 DN1 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_DN1_filtered_feature_bc_matrix.h5	md5=b0311c8e910599e6f3e18adee9a6c639		
+GSE195460_DN2_RNA_H5	singlecell	GSE195460 DN2 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_DN2_filtered_feature_bc_matrix.h5	md5=baab567bff3735272bad63559ebd8131		
+GSE195460_DN3_RNA_H5	singlecell	GSE195460 DN3 (RNA) filtered_feature_bc_matrix.h5	GEO	GSE195460	2022-01-24	data/raw/singlecell/GSE195460/h5/GSE195460_DN3_filtered_feature_bc_matrix.h5	md5=b2e94f6f2521c77923261cfe0b3585ae		
+LD_EUR_hg37	reference	1000G_Phase3_EUR	EBI	NA	2025-12-30	data/raw/references/ld/EUR/	NA	hg37	EUR
+OPENGWAS_EGFR_EUR_2021	gwas	Estimated glomerular filtration rate (creatinine) (EUR)	OpenGWAS	ebi-a-GCST90103634	2026-01-02	data/references/opengwas/gwasinfo_ebi-a-GCST90103634.tsv	md5=e17109f47f8adc402c01aead281a01f0	hg37	EUR
+OPENGWAS_UAE_EUR_2018	gwas	Urinary albumin excretion (EUR)	OpenGWAS	ebi-a-GCST006586	2026-01-02	data/references/opengwas/gwasinfo_ebi-a-GCST006586.tsv	md5=758cffa913405bedf45702cc7098f991	hg37	EUR
+OPENGWAS_ASSOCIATIONS_API	api	OpenGWAS associations API (GWAS + eQTL)	OpenGWAS API	eqtl-a-*; ebi-a-*	2026-01-10	NA	NA	hg37	
+ENSEMBL_GRCH37_OVERLAP_VARIATION_API	api	Ensembl GRCh37 overlap/region (variation rsIDs)	Ensembl REST	overlap/region/human	2026-01-10	NA	NA	hg37	

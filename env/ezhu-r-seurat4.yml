@@ -1,0 +1,58 @@
+name: ezhu-r-seurat4
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - r-base=4.3.3
+  - r-seurat=4.4.0
+  - r-seuratobject=4.1.4
+  # Seurat v4 Graph objects require the S4 class `mMatrix` to exist in the Matrix package.
+  # Pin to a known-compatible Matrix build to avoid `invalid class "Graph" object: superclass "mMatrix" not defined`.
+  - r-matrix=1.6_1
+  - r-rcpp
+  - r-r.methodss3
+  - r-r.oo
+  - r-r.utils
+  - r-data.table
+  - r-httpuv
+  - r-shiny
+  - r-igraph
+  - r-reticulate
+  - r-plotly
+  - r-png
+  - r-miniui
+  - r-dplyr
+  # Needed to read 10x .h5 matrices (GSE195460)
+  - r-hdf5r
+  - hdf5
+  - zlib
+  - libaec
+  - bioconductor-genomicranges
+  - bioconductor-iranges
+  - bioconductor-annotationdbi
+  - bioconductor-org.hs.eg.db
+  - r-ggplot2
+  - r-ggpubr
+  - r-ggsignif
+  - r-rstatix
+  - r-nloptr
+  - r-ggsci
+  - r-ggtext
+  - r-ggthemes
+  - r-gridextra
+  - r-glmnet
+  - r-irlba
+  - r-reshape
+  - r-reshape2
+  - r-bigreadr
+  - r-biganalytics
+  - r-bigmemory
+  - r-bigstatsr
+  - r-rmtstat
+  - r-jsonlite
+  - r-remotes
+  - r-biocmanager
+  - pandoc
+  - curl
+  - make
+  - jq

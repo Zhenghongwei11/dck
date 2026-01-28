@@ -1,0 +1,43 @@
+pathway_name	source	target	prob_sum
+COLLAGEN	Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	0.163396825850616
+COLLAGEN	Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	0.158145420907393
+COLLAGEN	Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	0.0925763847457092
+COLLAGEN	Collecting duct intercalated cell	Collecting duct intercalated cell	0.0893600064672326
+COLLAGEN	Collecting duct principal cell	Thick ascending limb (TAL) / loop of Henle	0.0787234817589326
+COLLAGEN	Collecting duct principal cell	Collecting duct intercalated cell	0.0769805058508244
+LAMININ	Collecting duct principal cell	Thick ascending limb (TAL) / loop of Henle	0.0631255581250471
+COLLAGEN	Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	0.0579772007381416
+COLLAGEN	Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	0.0555020077370972
+COLLAGEN	Injured distal epithelial state (provisional)	Thick ascending limb (TAL) / loop of Henle	0.0466911130864443
+COLLAGEN	Injured distal epithelial state (provisional)	Collecting duct intercalated cell	0.0448117949470018
+LAMININ	Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	0.0391871399597608
+LAMININ	Collecting duct principal cell	Collecting duct intercalated cell	0.0386722036085704
+VEGF	Collecting duct intercalated cell	Injured tubular epithelial program (mixed)	0.025261306506836
+LAMININ	Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	0.0244331410568583
+PARs	Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	0.0240423943820803
+COLLAGEN	Injured tubular epithelial program (mixed)	Thick ascending limb (TAL) / loop of Henle	0.023588681958935
+LAMININ	Collecting duct intercalated cell	Collecting duct intercalated cell	0.0231498323730548
+COLLAGEN	Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	0.0226423791437464
+PECAM1	Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	0.020766197823944
+PARs	Collecting duct intercalated cell	Collecting duct intercalated cell	0.0167727676762063
+PTPRM	Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	0.0161397789380408
+LAMININ	Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	0.0153686753769296
+THBS	Injured distal epithelial state (provisional)	Collecting duct intercalated cell	0.0147099348931668
+LAMININ	Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	0.0145515833643
+CD46	Epithelial progenitor-like / repair state (provisional)	Epithelial progenitor-like / repair state (provisional)	0.0142967654811444
+CD46	Injured distal epithelial state (provisional)	Epithelial progenitor-like / repair state (provisional)	0.0139145687470776
+NOTCH	Epithelial progenitor-like / repair state (provisional)	Injured tubular epithelial program (mixed)	0.0135080318756987
+CD46	Collecting duct principal cell	Epithelial progenitor-like / repair state (provisional)	0.0126271529864425
+CD46	Injured tubular epithelial program (mixed)	Epithelial progenitor-like / repair state (provisional)	0.0122862529117838
+PTPRM	Thick ascending limb (TAL) / loop of Henle	Injured tubular epithelial program (mixed)	0.0118508137878001
+PTPRM	Injured tubular epithelial program (mixed)	Thick ascending limb (TAL) / loop of Henle	0.0118508137878001
+CD46	Thick ascending limb (TAL) / loop of Henle	Epithelial progenitor-like / repair state (provisional)	0.0106476994478259
+PTPRM	Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	0.0101064140653384
+PTPRM	Collecting duct intercalated cell	Injured tubular epithelial program (mixed)	0.0101064140653384
+APP	Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	0.00935045738692297
+CD46	Collecting duct intercalated cell	Epithelial progenitor-like / repair state (provisional)	0.00927906446257685
+LAMININ	Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	0.00909377047797628
+PTPRM	Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	0.00869152437903179
+VEGF	Collecting duct principal cell	Injured tubular epithelial program (mixed)	0.00679910976014633
+APP	Collecting duct principal cell	Injured tubular epithelial program (mixed)	0.00516099270471254
+APP	Thick ascending limb (TAL) / loop of Henle	Injured tubular epithelial program (mixed)	0.0041258943090814

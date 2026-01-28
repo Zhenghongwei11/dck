@@ -1,0 +1,5 @@
+ensg	gene_symbol_ensembl	gene_symbol_input	reference
+ENSG00000101384	JAG1	JAG1	https://rest.ensembl.org/lookup/id/ENSG00000101384?content-type=application/json
+ENSG00000117318	ID3	ID3	https://rest.ensembl.org/lookup/id/ENSG00000117318?content-type=application/json
+ENSG00000163041	H3-3A	H3-3B	https://rest.ensembl.org/lookup/id/ENSG00000163041?content-type=application/json
+ENSG00000189223	PAX8-AS1	PAX8-AS1	https://rest.ensembl.org/lookup/id/ENSG00000189223?content-type=application/json

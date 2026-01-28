@@ -1,0 +1,7 @@
+sample	group	raw_cells	retained_cells	pct_retained	included_in_atlas	n_genes
+GSM3823939_control.s1.dgecounts.rds	control	3898	3740	0.959466393022063	TRUE	33777
+GSM3823940_control.s2.dgecounts.rds	control	92186	0	0	FALSE	30612
+GSM3823941_control.s3.dgecounts.rds	control	6626	6171	0.931331119830969	TRUE	32550
+GSM3823942_diabetes.s1.dgecounts.rds	diabetes	4085	3770	0.922888616891065	TRUE	33032
+GSM3823943_diabetes.s2.dgecounts.rds	diabetes	12133	4013	0.330750844803429	TRUE	32117
+GSM3823944_diabetes.s3.dgecounts.rds	diabetes	2860	2549	0.891258741258741	TRUE	31121

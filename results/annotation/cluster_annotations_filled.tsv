@@ -1,0 +1,12 @@
+cluster	proposed_cell_type	proposed_state	evidence_top_markers	notes	main_run_pvalue	repeat_run_pvalue
+12	Podocyte (glomerular)	Podocyte program	PTPRO, PLA2R1, MAGI2, PODXL	High confidence podocyte/glomerular context supported by canonical markers.	3.80122219562189e-05	3.80122219562189e-05
+3	Proximal tubule (S3-like)	Metabolic/detox program	SLC5A12, ACSM2A, ACSM2B, CUBN, ALDOB	High confidence proximal-tubule metabolic context.	6.08760956900627e-05	6.08760956900627e-05
+0	Collecting duct principal cell	Principal/CD program	AQP2, AQP3, SCNN1G, FXYD4	High confidence collecting-duct principal-like context.	0.000208032753113971	0.000208032753113971
+13	Injured epithelial program (mixed)	Injury/dedifferentiation state	ITGB6, S100A2, UPP1, TMPRSS4	High confidence injury-associated epithelial program; interpret as a state overlay rather than a fixed segment.	0.000447056715266161	0.000447056715266161
+7	Thick ascending limb (TAL) / loop of Henle	TAL/loop program	UMOD, SLC12A1, EGF, CXCL12	Segment markers support a TAL/loop identity; additional markers may indicate state modulation.	0.000365880358116794	0.000365880358116794
+6	Distal nephron / CNT-like	Distal program	CALB1, HSD11B2, SLC8A1	Medium confidence distal program; treat as distal/CNT-like pending further validation.	0.000795770565676137	0.000795770565676137
+2	Distal convoluted tubule (DCT-like)	DCT program	SLC12A3, TRPM6, EGF	High confidence DCT-like context supported by canonical transport markers.	0.0023991739920301	0.0023991739920301
+4	Collecting duct intercalated (provisional)	Acid–base/ion transport program	SLC26A7, ATP6V1C2	Provisional intercalated-cell-like context; validate with additional ATP6V*/SLC4A1/AQP6 markers as needed.	0.00762790911601862	0.00762790911601862
+9	VCAM1+ adhesion/stress program (provisional)	Adhesion/stress response	VCAM1, CRYAB, ITGB8	Provisional stress/adhesion context; may reflect injury-associated vascular/epithelial activation.	0.00151123211952385	0.00151123211952385
+11	CCN2/ECM-associated program (provisional)	ECM/stress remodeling	CFH, CCN2, CLDN1	Provisional ECM/stress-associated epithelial context; may reflect remodeling biology.	0.00185948410079624	0.00185948410079624
+15	Pericyte / vascular mural	Perivascular/mesenchymal program	PDGFRB, COL12A1, AEBP1, MGP	Medium confidence pericyte/vascular mural context.	0.0196684299897928	0.0196684299897928

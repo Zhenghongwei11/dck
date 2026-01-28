@@ -1,0 +1,7 @@
+sample	group	n_genes	n_cells
+GSM3823939_control.s1.dgecounts	control	33777	3898
+GSM3823940_control.s2.dgecounts	control	30612	92186
+GSM3823941_control.s3.dgecounts	control	32550	6626
+GSM3823942_diabetes.s1.dgecounts	diabetes	33032	4085
+GSM3823943_diabetes.s2.dgecounts	diabetes	32117	12133
+GSM3823944_diabetes.s3.dgecounts	diabetes	31121	2860

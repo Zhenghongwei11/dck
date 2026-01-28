@@ -1,0 +1,114 @@
+source	target	ligand	receptor	prob	pval	interaction_name	interaction_name_2	pathway_name	annotation	evidence	fdr
+Collecting duct principal cell	Thick ascending limb (TAL) / loop of Henle	LAMB1	ITGAV_ITGB8	0.0631255581250471	0	LAMB1_ITGAV_ITGB8	LAMB1 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.0597365579650889	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.0591730902048465	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.0470410269227769	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Injured tubular epithelial program (mixed)	VEGFA	FLT1	0.025261306506836	0	VEGFA_VEGFR1	VEGFA - VEGFR1	VEGF	Secreted Signaling	KEGG: hsa04370; PMID: 16633338	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	LAMB1	ITGAV_ITGB8	0.0244331410568583	0	LAMB1_ITGAV_ITGB8	LAMB1 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.0243372895069372	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	PLG	PARD3	0.0240423943820803	0	PLG_PARD3	PLG - PARD3	PARs	Secreted Signaling	KEGG: hsa04080	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL4A2	ITGAV_ITGB8	0.0237341676924366	0	COL4A2_ITGAV_ITGB8	COL4A2 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured tubular epithelial program (mixed)	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.023588681958935	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL4A1	ITGAV_ITGB8	0.0231342124942217	0	COL4A1_ITGAV_ITGB8	COL4A1 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	COL6A3	ITGAV_ITGB8	0.0229131881212837	0	COL6A3_ITGAV_ITGB8	COL6A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL4A3	ITGAV_ITGB8	0.0228373345724435	0	COL4A3_ITGAV_ITGB8	COL4A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL6A3	SDC1	0.0224028316347334	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL6A2	ITGAV_ITGB8	0.0223538235795071	0	COL6A2_ITGAV_ITGB8	COL6A2 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL6A3	SDC1	0.0221832077582199	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL4A4	ITGAV_ITGB8	0.0218774755388448	0	COL4A4_ITGAV_ITGB8	COL4A4 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	PECAM1	PECAM1	0.020766197823944	0	PECAM1_PECAM1	PECAM1 - PECAM1	PECAM1	Cell-Cell Contact	KEGG: hsa04514	0
+Collecting duct principal cell	Collecting duct intercalated cell	LAMB1	ITGA1_ITGB1	0.0198908424041274	0	LAMB1_ITGA1_ITGB1	LAMB1 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Thick ascending limb (TAL) / loop of Henle	COL4A5	ITGAV_ITGB8	0.0189869237938437	0	COL4A5_ITGAV_ITGB8	COL4A5 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	LAMB1	ITGA6_ITGB1	0.018781361204443	0	LAMB1_ITGA6_ITGB1	LAMB1 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.0187764505039588	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	COL4A2	ITGAV_ITGB8	0.0186280842003197	0	COL4A2_ITGAV_ITGB8	COL4A2 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.0185917013878114	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL6A3	SDC4	0.0176339179036285	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL6A3	SDC1	0.0174940401832025	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL6A3	SDC4	0.0174602105883982	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	COL4A3	ITGAV_ITGB8	0.0173521035176039	0	COL4A3_ITGAV_ITGB8	COL4A3 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	PLG	PARD3	0.0167727676762063	0	PLG_PARD3	PLG - PARD3	PARs	Secreted Signaling	KEGG: hsa04080	0
+Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	COL4A1	ITGAV_ITGB8	0.0164359284165383	0	COL4A1_ITGAV_ITGB8	COL4A1 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	PTPRM	PTPRM	0.0161397789380408	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	LAMB1	ITGAV_ITGB8	0.0153686753769296	0	LAMB1_ITGAV_ITGB8	LAMB1 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.0146503449031983	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	COL4A2	ITGAV_ITGB8	0.0144118729158484	0	COL4A2_ITGAV_ITGB8	COL4A2 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.0142967654811444	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Injured distal epithelial state (provisional)	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.0139145687470776	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	COL4A4	ITGAV_ITGB8	0.01377138138948	0	COL4A4_ITGAV_ITGB8	COL4A4 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	LAMB2	ITGAV_ITGB8	0.0137701238331794	0	LAMB2_ITGAV_ITGB8	LAMB2 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL6A3	SDC4	0.0137553630110019	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Injured tubular epithelial program (mixed)	JAG1	NOTCH4	0.0135080318756987	0	JAG1_NOTCH4	JAG1 - NOTCH4	NOTCH	Cell-Cell Contact	PMID: 22353464	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	LAMA5	ITGAV_ITGB8	0.013330655339324	0	LAMA5_ITGAV_ITGB8	LAMA5 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Thick ascending limb (TAL) / loop of Henle	COL4A5	ITGAV_ITGB8	0.0126405453478232	0	COL4A5_ITGAV_ITGB8	COL4A5 - (ITGAV+ITGB8)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.0126271529864425	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Injured tubular epithelial program (mixed)	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.0122862529117838	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Collecting duct intercalated cell	Thick ascending limb (TAL) / loop of Henle	LAMB1	ITGAV_ITGB8	0.0120863607872575	0	LAMB1_ITGAV_ITGB8	LAMB1 - (ITGAV+ITGB8)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Injured tubular epithelial program (mixed)	PTPRM	PTPRM	0.0118508137878001	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Injured tubular epithelial program (mixed)	Thick ascending limb (TAL) / loop of Henle	PTPRM	PTPRM	0.0118508137878001	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Thick ascending limb (TAL) / loop of Henle	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.0106476994478259	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	PTPRM	PTPRM	0.0101064140653384	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Collecting duct intercalated cell	Injured tubular epithelial program (mixed)	PTPRM	PTPRM	0.0101064140653384	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Injured tubular epithelial program (mixed)	Injured tubular epithelial program (mixed)	APP	CD74	0.00935045738692297	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	0
+Collecting duct intercalated cell	Epithelial progenitor-like / repair state (provisional)	CD46	JAG1	0.00927906446257685	0	CD46_JAG1	CD46 - JAG1	CD46	Cell-Cell Contact	PMID: 23086448	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A3	SDC1	0.00891732758102493	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A2	SDC1	0.00869293543056024	0	COL4A2_SDC1	COL4A2 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Thick ascending limb (TAL) / loop of Henle	PTPRM	PTPRM	0.00869152437903179	0	PTPRM_PTPRM	PTPRM - PTPRM	PTPRM	Cell-Cell Contact	KEGG: hsa04514	0
+Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	COL6A3	SDC1	0.00863883360084994	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A1	SDC1	0.00846989567898966	0	COL4A1_SDC1	COL4A1 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL6A3	SDC1	0.00838777127504817	0	COL6A3_SDC1	COL6A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A3	SDC1	0.00835959235710034	0	COL4A3_SDC1	COL4A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	THBS1	SDC1	0.00824220195294468	0	THBS1_SDC1	THBS1 - SDC1	THBS	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A2	SDC1	0.0081800374918472	0	COL6A2_SDC1	COL6A2 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A4	SDC1	0.00800325272244728	0	COL4A4_SDC1	COL4A4 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	LAMB1	ITGA1_ITGB1	0.00748709452757245	0	LAMB1_ITGA1_ITGB1	LAMB1 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.00745721438370787	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A2	ITGA1_ITGB1	0.00726929446230339	0	COL4A2_ITGA1_ITGB1	COL4A2 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.0072239883149781	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A1	ITGA1_ITGB1	0.0070825209302351	0	COL4A1_ITGA1_ITGB1	COL4A1 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	LAMB1	ITGA6_ITGB1	0.00706448883672751	0	LAMB1_ITGA6_ITGB1	LAMB1 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL6A3	ITGA1_ITGB1	0.00701375340504686	0	COL6A3_ITGA1_ITGB1	COL6A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A3	SDC4	0.00699853601196824	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A3	ITGA1_ITGB1	0.00699015799312648	0	COL4A3_ITGA1_ITGB1	COL4A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL4A5	SDC1	0.00693283350051333	0	COL4A5_SDC1	COL4A5 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A2	ITGA1_ITGB1	0.00683981419247503	0	COL6A2_ITGA1_ITGB1	COL6A2 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A2	SDC4	0.00682209522365547	0	COL4A2_SDC4	COL4A2 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A2	SDC1	0.00680022862125166	0	COL4A2_SDC1	COL4A2 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Injured tubular epithelial program (mixed)	VEGFA	FLT1	0.00679910976014633	0	VEGFA_VEGFR1	VEGFA - VEGFR1	VEGF	Secreted Signaling	KEGG: hsa04370; PMID: 16633338	0
+Injured tubular epithelial program (mixed)	Collecting duct intercalated cell	COL6A3	SDC4	0.0067795572279184	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A4	ITGA1_ITGB1	0.00669179854495457	0	COL4A4_ITGA1_ITGB1	COL4A4 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A1	SDC4	0.00664673486904627	0	COL4A1_SDC4	COL4A1 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL6A3	SDC4	0.00658217054610658	0	COL6A3_SDC4	COL6A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A3	SDC4	0.00656001745754436	0	COL4A3_SDC4	COL4A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	THBS1	SDC4	0.00646773294022209	0	THBS1_SDC4	THBS1 - SDC4	THBS	ECM-Receptor	KEGG: hsa04512	0
+Injured distal epithelial state (provisional)	Collecting duct intercalated cell	COL6A2	SDC4	0.00641886528597853	0	COL6A2_SDC4	COL6A2 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A3	SDC1	0.00632920355587881	0	COL4A3_SDC1	COL4A3 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A4	SDC4	0.00627990149959331	0	COL4A4_SDC4	COL4A4 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A1	SDC1	0.00599147882086537	0	COL4A1_SDC1	COL4A1 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL4A5	ITGA1_ITGB1	0.00579575892193513	0	COL4A5_ITGA1_ITGB1	COL4A5 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A2	ITGA1_ITGB1	0.00568477846116757	0	COL4A2_ITGA1_ITGB1	COL4A2 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Collecting duct intercalated cell	COL4A5	SDC4	0.00543871338605511	0	COL4A5_SDC4	COL4A5 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A2	SDC4	0.00533453315025692	0	COL4A2_SDC4	COL4A2 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A3	ITGA1_ITGB1	0.00529060467117513	0	COL4A3_ITGA1_ITGB1	COL4A3 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A2	SDC1	0.00524677754848055	0	COL4A2_SDC1	COL4A2 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct principal cell	Injured tubular epithelial program (mixed)	APP	CD74	0.00516099270471254	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A4	SDC1	0.00501152948146188	0	COL4A4_SDC1	COL4A4 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A1	ITGA1_ITGB1	0.00500802000638987	0	COL4A1_ITGA1_ITGB1	COL4A1 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A3	SDC4	0.00496452357601725	0	COL4A3_SDC4	COL4A3 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	COL4A1	SDC4	0.00469927345096421	0	COL4A1_SDC4	COL4A1 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	LAMB1	ITGA1_ITGB1	0.00467929813289118	0	LAMB1_ITGA1_ITGB1	LAMB1 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A5	SDC1	0.00459665546890968	0	COL4A5_SDC1	COL4A5 - SDC1	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Collecting duct intercalated cell	LAMB1	ITGA6_ITGB1	0.0044144723450851	0	LAMB1_ITGA6_ITGB1	LAMB1 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A2	ITGA1_ITGB1	0.00438501692949294	0	COL4A2_ITGA1_ITGB1	COL4A2 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A4	ITGA1_ITGB1	0.00418824466350447	0	COL4A4_ITGA1_ITGB1	COL4A4 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMB2	ITGA1_ITGB1	0.00418785849109859	0	LAMB2_ITGA1_ITGB1	LAMB2 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Thick ascending limb (TAL) / loop of Henle	Injured tubular epithelial program (mixed)	APP	CD74	0.0041258943090814	0	APP_CD74	APP - CD74	APP	Cell-Cell Contact	PMID: 19849849	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A2	SDC4	0.00411451995018627	0	COL4A2_SDC4	COL4A2 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMA5	ITGA1_ITGB1	0.00405294775457598	0	LAMA5_ITGA1_ITGB1	LAMA5 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMB2	ITGA6_ITGB1	0.00395073542651314	0	LAMB2_ITGA6_ITGB1	LAMB2 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	COL4A4	SDC4	0.00392983799363255	0	COL4A4_SDC4	COL4A4 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A5	ITGA1_ITGB1	0.00384126226952658	0	COL4A5_ITGA1_ITGB1	COL4A5 - (ITGA1+ITGB1)	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMA5	ITGA6_ITGB1	0.00382343421633949	0	LAMA5_ITGA6_ITGB1	LAMA5 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMB1	ITGA1_ITGB1	0.00367141984578888	0	LAMB1_ITGA1_ITGB1	LAMB1 - (ITGA1+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0
+Epithelial progenitor-like / repair state (provisional)	Collecting duct intercalated cell	COL4A5	SDC4	0.00360418626497069	0	COL4A5_SDC4	COL4A5 - SDC4	COLLAGEN	ECM-Receptor	KEGG: hsa04512	0
+Collecting duct intercalated cell	Collecting duct intercalated cell	LAMB1	ITGA6_ITGB1	0.00346343663873869	0	LAMB1_ITGA6_ITGB1	LAMB1 - (ITGA6+ITGB1)	LAMININ	ECM-Receptor	KEGG: hsa04512	0

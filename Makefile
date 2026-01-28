@@ -37,7 +37,6 @@ SCPAGWAS_REP_PREFIX ?= rep_gse195460
 .PHONY: analysis-replication
 .PHONY: install-scpagwas
 .PHONY: annotation
-.PHONY: review-bundle
 
 help:
 	@echo "Targets:"
@@ -61,7 +60,6 @@ help:
 	@echo "  make coloc-setup - install colocalization deps (coloc + ieugwasr; optional gwasvcf)"
 	@echo "  make coloc       - optional colocalization follow-up for top MR hits"
 	@echo "  make coloc-rebuild - rebuild coloc summaries from saved locus tables"
-	@echo "  make review-bundle - build Supplementary Data 1 (review bundle zip)"
 	@echo "  make audit       - run audits (AUDIT_LEVEL=full|ci)"
 	@echo "  make reproduce   - run setup->data->preprocess->analysis->figures->audit"
 
@@ -175,7 +173,7 @@ audit:
 audit-bundle:
 	./scripts/audit/bundle_run.sh 0
 
-review-bundle:
-	./scripts/audit/pack_review_bundle.sh
-
 reproduce: setup stage00 data preprocess anchors-qc anchors-umap analysis annotation figures audit
+
+reproduce-local: figures
+	$(MAKE) audit AUDIT_LEVEL=ci

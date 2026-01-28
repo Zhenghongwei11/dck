@@ -1,32 +1,56 @@
-# DKD genetics × kidney snRNA-seq integration (reviewer repo)
+# DKD genetics × single-cell atlas pipeline
 
-This repository contains code and lightweight result tables for a DKD genetics × kidney single-nucleus transcriptomic workflow (scPagwas integration + robustness checks), sufficient to regenerate the main figures from the provided “source-of-record” tables.
+Reproducible DKD genetics × kidney single-cell/single-nucleus analysis workflow, with manifest-driven data acquisition and script-generated figures.
 
-## What is included
-- `scripts/`: reproducible analysis + figure scripts
-- `results/`: derived tables used by figures (no raw data)
-- `plots/publication/`: final figures (PDF + PNG)
-- `data/manifest.tsv` + `docs/DATA_DOWNLOAD.md`: public-data download pointers for full re-runs
+## Quick Links
+- Data registry: `data/manifest.tsv`
+- Data download instructions: `docs/DATA_DOWNLOAD.md`
+- Environment notes: `docs/ENVIRONMENT.md`
+- Figure index (what tables back each panel): `docs/FIGURE_INDEX.md`
+- Cloud run guide (GCP): `docs/GCP.md`
 
-## What is not included
-- Manuscript / submission files (submitted separately)
-- Large raw/processed single-cell objects and full per-pathway regression dumps (cloud compute recommended)
+## Repository Layout
+- `data/`: external datasets (raw / processed / references), governed by `data/manifest.tsv`
+- `scripts/`: numbered, reproducible pipeline scripts
+- `results/`: intermediate outputs and “anchor tables” used by figures/manuscript
+- `plots/`: figures; final versions in `plots/publication/`
+- `docs/`: documentation and reviewer notes
 
-## Quick start (regenerate figures from included tables)
+## Reproduce (reviewer-friendly)
+
+Raw datasets are **not** committed. Download/validate them first:
+
+1. `make data` (or follow `docs/DATA_DOWNLOAD.md`)
+2. `make preflight` (set `GWAS_ID=...` to choose the primary GWAS; default is `GCST005881`)
+
+Then run the core pipeline:
+
+3. `make preprocess`
+4. `make analysis`
+5. `make figures`
+
+For a single command end-to-end run:
 
 ```bash
-EZHU_DISABLE_RENV=1 make figures FIGURES=2,3,4,5,6,7
+make reproduce
 ```
 
-Outputs are written to `plots/publication/` and `plots/publication/png/`.
+Figure 1 (workflow schematic) is intentionally not version-locked here; the prompt/spec is tracked at `docs/FIGURE1_GENERATION_PROMPT.md`.
 
-## Full re-run (cloud recommended)
+## Cloud run (recommended)
 
-See `docs/GCP.md` and `docs/INSTALL_MICROMAMBA_SEURAT4.md`. For a full rebuild (downloads + preprocessing + scPagwas + figures), a practical profile is **16 vCPU / 128 GB RAM / ≥300 GB disk**.
+Two practical VM profiles:
 
-## OpenGWAS credentials (MR / coloc)
+- Full rebuild (downloads + Seurat preprocessing + scPagwas + figures): **16 vCPU / 128 GB RAM / ≥300 GB disk**
+- Re-run scPagwas only (single-cell objects already exist under `data/processed/`): **8 vCPU / 64 GB RAM / ≥150 GB disk**
+
+To minimize reruns:
+- Keep `data/raw/` and `data/processed/` on a persistent disk between sessions.
+- The default `make data` excludes two very large CKDGen GWAS files (`GCST008058`, `GCST008064`). To include everything: `make data DOWNLOAD_EXCLUDE_IDS=`.
+
+## OpenGWAS Credentials (MR / coloc)
 Some optional stages (e.g., MR, colocalization) query OpenGWAS via API and require a JWT.
 
 - Preferred: write the token to `~/.config/ezhu/opengwas_jwt` (and `chmod 600` the file)
 - Alternative: export `OPENGWAS_JWT` in your shell
-- Do not commit tokens to the repository.
+- Do not commit tokens to the repository; auditors should run with their own OpenGWAS accounts.

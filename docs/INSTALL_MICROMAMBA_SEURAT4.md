@@ -373,4 +373,4 @@ Commit (recommended):
 - `docs/audit_runs/<run_id>/`
 - `results/figures/`, `results/scpagwas/`, `results/annotation/`
 - `plots/publication/`
-- (Manuscript files are submitted separately and are not part of the reviewer repo.)
+- `docs/MANUSCRIPT_*.md` and `docs/MANUSCRIPT_SUBMISSION.docx`

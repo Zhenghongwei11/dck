@@ -19,7 +19,7 @@ Some single-cell dependencies (notably Seurat/scPagwas combinations) can be brit
 For lightweight tasks (e.g., manuscript refresh / DOCX export) you can also disable `renv` locally:
 
 ```bash
-EZHU_DISABLE_RENV=1 make figures
+EZHU_DISABLE_RENV=1 make manuscript-docx-all
 ```
 
 ### “Known-good” environment (Seurat 4 + binaries)

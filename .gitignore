@@ -23,9 +23,8 @@ data/processed/**
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 
-# Generated outputs (keep placeholders, not local runs)
+# Generated outputs (local runs; not committed)
 results/metadata/**
-!results/metadata/.gitkeep
 results/causal/opengwas/**
 results/causal/mr/**
 
@@ -43,11 +42,6 @@ docs/review_bundle/**
 # Local-only manuscript generation helpers (do not commit)
 scripts/08_update_manuscript.R
 
-# Local agent tooling (do not commit)
-conductor/**
-openspec/**
-AGENTS.md
-
 # Local runbooks / scratch scripts
 run_plan_*.sh
 
@@ -61,6 +55,19 @@ docs/MANUSCRIPT_ONLINE.*
 # Debug artifacts
 plots/publication/png/*debug*
 scripts/audit/__pycache__/
+
+# Legacy/experimental work (not part of reviewer-facing pipeline)
+data/references/tcm/**
+DATA_MANIFEST.md
+extracted_refs.txt
+results/figures/figure_legends_draft.md
+docs/COVER_LETTER.md
+docs/FIGURE_STYLE_NOTES.md
+docs/references.bib
+docs/vancouver.csl
+
+# Large intermediate per-cell outputs (not needed for figure regeneration)
+results/scpagwas/**/**singlecell_scPagwas_score_pvalue.Result.csv
 
 # Ad-hoc root scripts (keep pipeline scripts under scripts/)
 patch_*.sh

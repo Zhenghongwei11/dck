@@ -64,6 +64,7 @@ tail -n 120 logs/reproduce.log
 If you also want the Word export on the VM:
 
 ```bash
+make manuscript-docx
 ```
 
 ## Data policy (important)

@@ -137,15 +137,15 @@ draw_figure6_multi_gwas <- function() {
   layout(matrix(c(1, 2, 3, 4), nrow = 2, byrow = TRUE))
 
   # Panel A: dot plot (color = -log10(p), outline = FDR).
-  par(mar = c(7, 12, 3.5, 5))
+  par(mar = c(7, 14, 3.5, 5))
   x_labels <- vapply(gwas_levels, pretty_gwas_label, character(1))
   n_x <- length(gwas_levels)
   n_y <- length(clusters)
 
   plot(NA, xlim = c(0.5, n_x + 0.5), ylim = c(0.5, n_y + 0.5), xaxt = "n", yaxt = "n",
-       xlab = "", ylab = "", main = "Cross-GWAS robustness (top DKD-localized contexts)", frame.plot = FALSE)
+       xlab = "", ylab = "", main = "Cross-GWAS robustness (top DKD contexts)", frame.plot = FALSE)
   axis(1, at = seq_len(n_x), labels = x_labels, las = 2, cex.axis = 0.8, lwd = 0, lwd.ticks = 0)
-  axis(2, at = seq_len(n_y), labels = rev(y_labels), las = 1, cex.axis = 0.75, lwd = 0, lwd.ticks = 0)
+  axis(2, at = seq_len(n_y), labels = rev(y_labels), las = 1, cex.axis = 0.72, lwd = 0, lwd.ticks = 0)
 
   pal <- ezhu_seq_pal(64)
   zlim <- c(0, cap)

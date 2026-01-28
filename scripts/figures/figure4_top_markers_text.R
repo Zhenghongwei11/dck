@@ -87,7 +87,8 @@ draw_feature_umap <- function(umap_cells, expr, title, legend_title = "Expr") {
 
 draw_figure4_markers <- function(ann_path, markers_dir = "results/annotation/markers") {
   layout(matrix(1:8, nrow = 4, byrow = TRUE))
-  label_shift <- 1.2
+  # Shift panel labels left to avoid overlaps with long titles.
+  label_shift <- 2.0
 
   # Select clusters dynamically from the repeat-run scPagwas ranking, so figure panels
   # remain valid after reclustering / integration changes.

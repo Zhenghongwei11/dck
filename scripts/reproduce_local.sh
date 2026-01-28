@@ -20,8 +20,10 @@ echo "[local] EZHU_SEED=$EZHU_SEED"
 echo "[local] generating figures"
 make figures
 
-echo "[local] exporting causal candidates (no heavy data required)"
-make causal
+if [[ "${RUN_CAUSAL:-0}" == "1" ]]; then
+  echo "[local] exporting causal candidates (may require OpenGWAS auth)"
+  make causal
+fi
 
 echo "[local] running audits (ci)"
 make audit AUDIT_LEVEL=ci

@@ -125,6 +125,13 @@ else
   echo "[cloud-full] skip ccc: CellChat not installed in this R environment" | tee logs/ccc.log
 fi
 
+echo "[cloud-full] manuscript docx (optional: requires pandoc)"
+if command -v pandoc >/dev/null 2>&1; then
+  make manuscript-docx RSCRIPT="$RSCRIPT_BIN" > logs/manuscript_docx.log 2>&1
+else
+  echo "[cloud-full] skip manuscript-docx: pandoc not found" | tee logs/manuscript_docx.log
+fi
+
 echo "[cloud-full] audit (full)"
 make audit AUDIT_LEVEL=full RSCRIPT="$RSCRIPT_BIN" > logs/audit_full.log 2>&1
 

@@ -19,7 +19,7 @@ Goal: link each Figure to its full provenance (“inputs → scripts → anchor 
 - Inputs (`data/` paths): Derived from the manuscript narrative and the audited outputs below (Figures 2–7 anchors are the source of record for numbers).
 - Scripts (`scripts/` paths, in order): Not script-generated (prompt-based schematic prepared separately).
 - Anchor tables (`results/` paths; source of record for numbers): Use the anchors referenced in Figures 2–7 for all numeric claims.
-- Final outputs (`plots/publication/` paths): `plots/publication/png/figure1.jpeg`.
+- Final outputs (`plots/publication/` paths): `plots/publication/png/figure1.jpeg` (embedded by `make manuscript-docx`).
 - Notes:
   - Generation prompt and metadata: `docs/FIGURE1_GENERATION_PROMPT.md`
   - This figure is a schematic; it does not replace numeric provenance captured in Figures 2–7.
@@ -119,6 +119,7 @@ Goal: link each Figure to its full provenance (“inputs → scripts → anchor 
   - B: Spearman rank concordance vs DKD (Main) across all clusters
   - C: DKD (main) vs DKD meta-analysis enrichment scatter (per-cluster; dashed y=x)
   - D: DKD (main) vs eGFR enrichment scatter (per-cluster; dashed y=x)
+- Statistics and annotation standards (P/FDR, N, effect sizes, etc.): Report per-cluster P and BH-FDR within each GWAS; panel-A colors show capped -log10(p) for visual comparability (cap=8). Rank concordance uses Spearman correlation on per-cluster -log10(p) across all clusters.
 
 ### Figure 7 — Cell–Cell Communication (CCC; CellChat)
 - Key claim(s): Ligand–receptor and pathway-level CCC candidates link genetically-enriched cell contexts to plausible intercellular signaling axes.
@@ -139,7 +140,7 @@ Goal: link each Figure to its full provenance (“inputs → scripts → anchor 
   - F: top sender→receiver edges (prob sum)
   - G: outgoing signaling by source (prob sum)
   - H: incoming signaling by target (prob sum)
-- Statistics and annotation standards (P/FDR, N, effect sizes, etc.): Report Fisher P with BH FDR; report empirical P values from marker-size matched null (`emp_p`) and target-size matched null (`emp_target_p`).
+- Statistics and annotation standards (P/FDR, N, effect sizes, etc.): Report per-interaction Fisher P with BH-FDR across tested ligand–receptor pairs; probability summaries are reported as CellChat `prob`/`prob_sum` outputs and are interpreted as exploratory prioritization.
 
 ### Figure S6 — scPagwas Subsampling Stability (Bootstrap Within Sample)
 - Key claim(s): Top scPagwas cell contexts remain stable under within-sample subsampling (bootstrap).

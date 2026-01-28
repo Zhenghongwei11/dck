@@ -131,6 +131,8 @@ if [[ -n "$hash_cmd" ]]; then
       find results/figures results/scpagwas results/annotation results/causal results/metadata plots/publication docs \
         -type f \
         \( \
+          -path "docs/MANUSCRIPT_SUBMISSION.md" -o \
+          -path "docs/MANUSCRIPT_SUBMISSION.docx" -o \
           -path "docs/DECISION_LOG.md" -o \
           -path "docs/ENVIRONMENT.md" -o \
           -path "docs/INSTALL_MICROMAMBA_SEURAT4.md" -o \
